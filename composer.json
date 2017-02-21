@@ -1,0 +1,23 @@
+{
+  "name": "timitao/behat-workshop",
+  "description": "Workshop of basic of behat",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomasz Kunicki",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Timitao\\Behatworkshop\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "behat/behat": "3.3.*",
+    "guzzlehttp/guzzle": "4 - 6",
+    "phpunit/phpunit": "4 - 5"
+  }
+}
