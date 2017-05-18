@@ -1,17 +1,18 @@
 version: '2'
 services:
-  apache2_php:
+  php:
     image: webdevops/php-apache:ubuntu-16.04
     volumes:
-      - ./public:/app
+      - ./:/app
     working_dir: /app
     environment:
       - APP_ENV=local
       - VIRTUAL_HOST=workshop.timitao
+      - WEB_DOCUMENT_ROOT=/app/public
     ports:
       - 80:80
   composer:
     image: composer/composer
     working_dir: /app
     volumes_from:
-      - apache2_php
+      - php

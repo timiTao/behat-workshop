@@ -13,7 +13,7 @@ class ContainerFactory
         $container->set(\Helpers\Client::class,
             new \Helpers\Client(
                 new Client(
-                    ['base_uri' => 'http://workshop.timitao/']
+                    ['base_uri' => 'http://172.17.0.1/']
                 )
             )
         );

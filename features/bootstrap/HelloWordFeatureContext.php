@@ -27,6 +27,4 @@ class HelloWordFeatureContext implements \Behat\Behat\Context\Context
     {
         Assert::assertTrue($this->helloWord->hasText($text), $this->helloWord->printRequest());
     }
-
-
 }
