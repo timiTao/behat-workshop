@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\Assert;
 
-class FeatureContext implements \Behat\Behat\Context\Context
+class HelloWordFeatureContext implements \Behat\Behat\Context\Context
 {
     /** @var  \Helpers\PageObject\HelloWord */
     private $helloWord;

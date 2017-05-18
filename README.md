@@ -1,5 +1,5 @@
 # behat-workshop
-Simple material for workshop with behat and PHP 7.0.
+Simple material for workshop with behat and PHP 7.1.3.
 
 Configure WWW server to have domain ``workshop.timitao`` on ``public`` folder.
 
